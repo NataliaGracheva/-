@@ -1,0 +1,644 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.template {
+  position: absolute;
+  width: 1920px;
+  left: 50%;
+  margin-left: -960px;
+  opacity: 0.5;
+  z-index: 10;
+}
+
+html {
+  font-family: sans-serif;
+  font-size: 15px;
+  color: #999999;
+}
+
+.center {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+header {
+  max-width: 1920px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  background: #f7b585
+  url(http://u.cubeupload.com/gracheva_22_09/5i73wc.jpg)
+    no-repeat;
+  background-size: cover;
+  background-position: 50% 0%;
+}
+
+.top-menu {
+ padding-top: 21px;
+ font-size: 0;
+} 
+
+.logo {
+  display: inline-block;
+  width: 20%;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: left;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.navbar {
+ display: inline-block;
+ width: 80%; 
+ font-size: 14px;
+ text-align: right;
+}
+
+.navbar li {
+  display: inline-block;
+  text-transform: uppercase;
+  margin-left: 52px;
+} 
+
+.navbar a {
+  padding-bottom: 10px;
+  text-decoration: none;
+  color: #ffffff; 
+}
+
+.navbar a:hover {
+  color: #fce38a;
+  border-bottom: 3px solid;
+}
+
+a.basket:hover, a.search:hover {
+  opacity: 0.5;
+  border-bottom: none;
+}
+
+.basket  {
+  display: inline-block;
+  width: 28px;
+  height: 20px; 
+  vertical-align: bottom; 
+  background-image:
+  url(http://u.cubeupload.com/gracheva_22_09/b2q6n2.png);
+  background-repeat: no-repeat;
+  background-position: -20px 0%;
+}
+
+.search  {
+  display: inline-block;
+  width: 24px;
+  height: 20px; 
+  vertical-align: bottom;
+  background-image:
+  url(http://u.cubeupload.com/gracheva_22_09/b2q6n2.png);
+  background-repeat: no-repeat;
+  background-position: 0% 0%;  
+}
+
+ .navbar li:last-child  { 
+ margin: 0 -7px 0 37px;
+}
+
+.navbar li:nth-last-child(2)  { 
+ margin: 0 0 0 37px;
+}
+
+h1 {
+  padding-top: 154px;
+  font-family: 'Kaushan Script', cursive;
+  font-size: 72px;
+  text-transform: capitalize;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 150px;
+  text-transform: uppercase;
+  line-height: 0.93;
+  padding-top: 25px;
+  letter-spacing: -5px;
+}
+
+h2:after {
+  content: "";
+  display: block;
+  width: 60px;
+  margin: 57px auto 61px;
+  border-bottom: 3px solid;
+}
+
+.button {
+  padding: 8px 27px 8px;
+  font-weight: bold;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: ;
+  border: 3px solid #ffffff;
+}
+
+.button:hover {
+  color: #fce38a;
+  border-color: #fce38a;
+}
+
+.menu {
+  font-size: 14px;
+  text-align: justify;  
+}
+
+.menu:after {
+  content: "";
+  display: inline-block;
+  width: 100%;
+}
+
+.menu li {
+  display: inline-block;
+  width: 23%;
+  margin: 167px -7px 0 0;
+  padding: 20px 0px 4px 0px;
+  text-transform: uppercase;
+  text-align: left;
+  border-top: 3px solid rgba(255, 255, 255, 0.5);  
+} 
+
+.menu a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #ffffff;
+  opacity: 0.7;
+}
+
+.menu a span {
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: bold;
+  color: #ffffff;  
+}
+
+.menu a:hover {
+  opacity: 1;
+}
+
+.menu li:hover  {
+  border-color: rgba(255, 255, 255, 1);
+}
+
+.about-us {
+  max-width: 1920px;
+}
+
+h3 {
+  padding-top: 77px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  text-transform: uppercase;
+  line-height: 1.6;
+  letter-spacing: -1px;
+  color: #333333;
+}
+
+h3 span {
+  font-family: 'Kaushan Script', cursive;
+  font-weight: bold;
+  font-size: 24px;
+  text-transform: none;
+  letter-spacing: 0;
+  color: #333333;
+}
+
+h3:after {
+  content: "";
+  display: block;
+  width: 60px;
+  margin: 28px auto 40px;
+  border-bottom: 3px solid;
+  color: #f38181;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  word-spacing: 0.5px;
+  line-height: 1.6;
+  color: #999999;
+}
+
+.about-us p {
+  padding: 0 110px 0;
+}
+
+.stories {
+  margin-top: 99px;
+  vertical-align: top;
+  text-align: justify;
+}
+
+.stories:after {
+  content: "";
+  display: inline-block;
+  width: 100%;
+}
+
+.story {
+  display: inline-block;
+  width: 31.6%;
+  height: 250px;
+  border: 1x solid #999999; 
+}
+
+.facts {
+  max-width: 1920px;
+  margin-top: 88px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  background: #95e1d3;
+}
+
+.facts .center {
+  font-size: 0;
+}
+
+.facts .center li {
+  display: inline-block;
+  width: 20%;
+  height: 270px;
+  padding-top: 65px;
+  vertical-align: top;
+  font-size: 14px;
+  text-transform: uppercase;
+  line-height: 1.4;
+  border-left: 1px solid;
+}
+
+.facts .center li:last-child {
+  border-right: 1px solid;
+}
+
+.facts .center li span {
+  font-size: 72px;
+  font-weight: bold; 
+}
+
+.services {
+  max-width: 1920px;  
+}
+
+.services .center {
+  vertical-align: top;
+  text-align: center;
+}
+
+.services h3 {
+  padding-top: 96px;
+  letter-spacing: -0.5px;
+}
+
+.services h3 span {
+  padding-left: 5px; 
+}
+
+.services div {
+  font-size: 0;
+}
+
+.desc {
+  position: relative;
+  display: inline-block;
+  width: calc(100% / 3);
+  margin-bottom: 24px;
+  padding-bottom: 47px;
+  vertical-align: top;
+  font-size: 0;
+  text-align: left;
+}
+
+.desc h4:before {   
+  content: "";
+  display: inline-block;
+  position: absolute;
+  left: 24px;
+  top: 25px;
+  width: 38px;
+  height: 38px;
+  background: url('http://u.cubeupload.com/gracheva_22_09/sAXMea.jpg') no-repeat;
+}
+
+.desc:nth-child(2) h4:before {
+  background-position: 18% 0%;
+}
+
+.desc:nth-child(3) h4:before {
+  background-position: 36% 0%;
+}
+
+.desc:nth-child(4) h4:before {
+  background-position: 54% 0%;
+}
+
+.desc:nth-child(5) h4:before {
+  background-position: 72% 0%;
+}
+
+.desc:nth-child(6) h4:before {
+  background-position: 90% 0%;
+}
+
+.desc:nth-child(-n+3) {
+  border-bottom: 1px solid #e5e5e5; 
+}
+.desc:nth-last-child(-n+3) {
+  margin-bottom: 32px;
+}
+.desc h4 {
+  margin-left: 90px;
+  padding-top: 24px;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #333333;
+}
+
+.desc p {
+  margin-left: 89px;
+  padding: 11px 20px 0 0;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+footer {
+  max-width: 1920px;
+  background-color: #f8f8f8;
+}
+
+footer .center {
+  font-size: 0; 
+}
+
+.follow {
+  display: inline-block;
+  width: 40%;
+  padding: 64px 0 67px;
+  vertical-align: top;
+  text-align: left;
+}
+
+.follow a {
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 46px;
+  font-weight: bold;
+  color: #cccccc;
+}
+
+.logo2 {
+  margin-left: -5px;
+}
+
+.about {
+  padding-top: 25px;
+  margin-left: -1px;
+}
+
+.follow h5 {
+  margin-left: -1px;
+  padding: 42px 0 14px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  color: #333333;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.follow h5 span {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.social {
+  display: inline-block;
+  margin-left: -2px;
+  padding-top: 13px;
+  vertical-align: top;  
+}
+
+p.social {
+  font-style: italic;
+  font-weight: 300;
+  letter-spacing: -0.5px;
+}
+
+.social li{
+  display: inline-block;
+  height: 20px;
+  width: 18px;
+  background-image: url(http://u.cubeupload.com/gracheva_22_09/HLndrI.png);
+  background-repeat: no-repeat;  
+}
+
+.social-facebook {
+  background-position: 0px 0%;
+  margin-left: 22px;
+}
+
+.social-twitter {
+  background-position: -25px 0%;
+  margin-left: 13px;
+}
+
+.social-instagram {
+  background-position: -52px 0%;
+  margin-left: 11px;
+}
+
+.social-pinterest {
+  background-position: -79px 0%;
+  margin-left: 11px;
+}
+
+.social-google-plus {
+  background-position: -108px 0%;
+  margin-left: 13px;
+}
+
+.social-youtube {
+  background-position: -136px 0%;
+  margin-left: 13px;
+}
+
+.social-dribbble {
+  background-position: -164px 0%;
+  margin-left: 13px;
+}
+
+.social-tumblr {
+  background-position: -189px 0%;
+  margin-left: 12px;
+}
+
+ul.social a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+ .follow form {
+  padding-top: 34px;
+  margin-left: px;
+}
+
+ .follow input {
+  padding-left: 8px;
+  width: 48%;
+  height: 40px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 15px;
+  line-height: 24px;
+  letter-spacing: -0.5px;
+  color: #333333;
+}
+
+.follow input::placeholder {
+  color: #cccccc;
+}
+
+.follow button {
+  width: 31%;
+  height: 40px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #95e1d3;
+  border: none;
+}
+
+.follow button:hover {
+  background-color: #6fccbb;
+  box-shadow: 0 0 1px #999999;
+  transition: 1s;
+  cursor: pointer; 
+}
+
+.blogs {
+  display: inline-block;
+  width: 35%;
+  vertical-align: top;
+  text-align: left;
+}
+
+footer h4 {
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  letter-spacing: -0.5px;
+  color: #333333;
+}
+
+.blogs h4 {
+ padding: 77px  0 30px 29px; 
+}
+
+.blog {
+  padding-bottom: 23px;
+}
+
+.blog img {
+  float: left;
+  padding: 8px 0 0 31px;
+  margin-right: 20px;
+}
+
+.blog h5 {
+  padding: 24px 30px 0 0;
+  font-size: 12px;
+  color: #333333;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 18px;
+  letter-spacing: -0.4px;
+  text-transform: uppercase;
+}
+  
+time {
+  margin-left: px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 13px;
+  font-weight: 300;
+  font-style: italic;
+  letter-spacing: -0.4px;
+  line-height: 24px;
+  color: #999999;
+}
+
+.blog:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+
+.instagram {
+  display: inline-block;
+  width: 25%;
+  vertical-align: top;
+  padding-left: 27px;
+  text-align: left;
+  padding-bottom:
+}
+
+.instagram h4 {
+  padding: 77px  0 35px 4px;
+}
+
+.photos {
+  margin-bottom: 14px;
+  text-align: center;
+}
+
+.photo {
+  display: inline-block;
+  width: 89px;
+  height: 89px;
+  border: 2px solid #ffffff;
+}
+.instagram a  {
+  font-family: 'Roboto', sans-serif;
+  font-size: 13px;
+  font-weight: 300;
+  font-style: italic;
+  line-height: 24px;
+  letter-spacing: -0.4px;
+  text-decoration: none;
+  color: #333333;
+}
+
+.instagram a:hover {
+  text-decoration: underline;
+}
+
+
+.rights {
+  
+  border-top: 1px solid #e5e5e5;
+  
+ 
+  padding: 20px 0 20px;
+  font-size: 14px;
+  letter-spacing: -0.15px;
+color: #333333;
+font-family: 'Montserrat', sans-serif;
+text-align: center;
+}
+.rights span {
+  color: #f38181;
+} 
