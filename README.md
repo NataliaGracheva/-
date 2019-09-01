@@ -1,4 +1,4 @@
-# Дипломный проект курса: "HTML-верстка: с нуля до первого макета".
+# Дипломный проект курса "HTML-верстка: с нуля до первого макета"
 Задание:
 ![01-CreativeTemplate.jpg](https://github.com/NataliaGracheva/HTML-34/blob/master/01-CreativeTemplate.jpg)
 
